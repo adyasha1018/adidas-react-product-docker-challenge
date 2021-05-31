@@ -19,7 +19,7 @@ Styles are used on hover and background,image.
 On click  of each product ProductDetails and Reviews  will be shown.
 On ProductDetails page AddReview option is there to add review to particular product.
 
-Index-->App-->HomePage-->ProductDetail-->ReviewList-->(AddReview & Review);
+Index-->App-->HomePage-->ProductDetail-->ReviewList-->(AddReview & Review);         
 Homepage--> ProductList-->Product
 
 Reducers/Saga Used:
@@ -40,6 +40,8 @@ IMPORTANT  NOTE:
 
 Using both frontend and backend url from localhost gives CORS error. As the backend was dockerized and it is not a good practice
 to set headers explicitly or use via Proxy server I have commented those lines where as same data is used for application.
+
+Below are screenshots of working application(including device specific).
 
 <img width="1680" alt="Screenshot 2021-05-31 at 17 17 06" src="https://user-images.githubusercontent.com/17451634/120228892-5556ff80-c24c-11eb-8af7-69cee39cd8c2.png">
 <img width="591" alt="Screenshot 2021-05-31 at 17 17 25" src="https://user-images.githubusercontent.com/17451634/120228899-5a1bb380-c24c-11eb-9234-229940ae9626.png">
