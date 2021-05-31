@@ -1,0 +1,93 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 30%;
+  .product {
+        min-width: 30%;
+        height: 240px;
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        overflow: hidden;
+        
+        
+        &:hover {
+          cursor: pointer;
+          border: 2px solid rgb(5, 25, 70);
+      
+          & .background-image {
+            transform: scale(1.1);
+            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          }
+      
+          & .content {
+            opacity: 0.9;
+          }
+        }
+      
+        .background-image {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          border: 2px solid transparent;
+        }
+      
+        .content {
+          height: auto;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid black;
+          background-color: white;
+          opacity: 0.7;
+          position: absolute;
+
+          .title {
+            font-weight: bold;
+            margin: 5px;
+            font-size: 18px;
+            color: #4a4a4a;
+          }
+        }
+
+
+  }
+  .productDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.product-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 387px;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  margin: 15px;
+  
+  .background-image {
+    width: 60%;
+    height: -webkit-fill-available;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid navy;
+    overflow: hidden;
+      &:hover {
+        cursor: pointer;
+      }
+  }
+  .detail-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+}

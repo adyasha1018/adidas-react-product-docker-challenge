@@ -1,0 +1,42 @@
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: fit-content;
+  font-size: 16px;
+  margin: 15px;
+  .add-review-btn {
+    padding: 10px 25px;
+    border: 1px solid navy;
+    background-color: teal;
+    border-radius: 5px;
+    color: aliceblue;
+    opacity:  0.7;
+    &:hover {
+        cursor: pointer;
+        opacity: 1;
+        font-weight: bold;
+        border-width: 2px;
+    }
+  }
+  .enter-review {
+    margin: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    
+  }
+  .cancel-review-btn {
+    padding: 10px 25px;
+    margin: 10px;
+    border: 1px solid rgba(26, 26, 27, 0.164);
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: black;
+    max-width: 20%;
+    &:hover {
+        cursor: pointer;
+        font-weight: bold;
+        border-width: 2px;
+    }
+  }
+}

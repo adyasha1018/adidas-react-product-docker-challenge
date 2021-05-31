@@ -1,0 +1,24 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  .logo-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: bisque;
+    .text {
+      display: flex;
+      align-items: center;
+      font-size: 48px;
+      margin: 0 25px;
+    }
+    .logo {
+      align-items: center;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  }
+}
